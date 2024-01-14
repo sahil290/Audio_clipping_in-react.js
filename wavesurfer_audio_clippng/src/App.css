@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#music-main {
+  padding: 60px;
+}
+#music-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#bottom-video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 40px;
+}
+#bata {
+  padding: 25px 100px;
+  color: #fff;
+  font-family: sans-serif;
+  background: #555555;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+}
+#waveform {
+  width: 100%;
+}
+#head69 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1.3px;
+  text-decoration: underline;
+  color: #555555;
+}
+#music-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+#ext {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  text-decoration: underline;
+  color: #555555;
+  margin-top: 20px;
+  line-height: 30px;
+}
